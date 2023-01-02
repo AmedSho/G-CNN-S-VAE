@@ -1,2 +1,1 @@
-# Ue
-Ua
+# Group Equivariant CNN and disentangling β-VAE
