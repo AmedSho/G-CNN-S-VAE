@@ -5,7 +5,7 @@ The idea is really simple and straightforward, I obtained disentangling rotation
 
 ![](https://github.com/AmedSho/G-CNN-S-VAE/blob/main/S-VAE.png)
 
-In the repository there is the entire code I used for the project, which can be easly found here: https://www.kaggle.com/code/amedsho/s-gcnn-vae
+In the repository there is a folder with the project and the entire code I used for the project, which can be also easly found here: https://www.kaggle.com/code/amedsho/s-gcnn-vae
 
 VAE response under 360 degree rotation of the input:
 ![](https://github.com/AmedSho/G-CNN-S-VAE/blob/main/VAE_gif.gif)
