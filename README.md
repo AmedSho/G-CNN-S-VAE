@@ -7,5 +7,5 @@ The idea is really simple and straightforward, I obtained disentangling rotation
 
 In the repository there is a folder with the project and the entire code I used for the project, which can be also easly found here: https://www.kaggle.com/code/amedsho/s-gcnn-vae
 
-VAE response under 360 degree rotation of the input:
-![]()
+VAE results over randomly rotated inputs:
+![](https://github.com/AmedSho/G-CNN-S-VAE/blob/main/Project/VAE_results.png)
