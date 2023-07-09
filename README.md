@@ -4,7 +4,7 @@ An emerging field in representation learning involves the study of group-equivar
 
 ![](https://github.com/AmedSho/G-CNN-S-VAE/blob/main/Project/S-VAE.png)
 
-In the repository there is a folder with the project and the entire code we used for the project, which can be also easly found here: https://www.kaggle.com/code/amedsho/s-gcnn-vae
+In the repository there is a folder with the project and the entire code we used for the project, which can be also easly found here: https://www.kaggle.com/code/amedsho/sgvae ($\mathcal{S}$-GVAE project), https://www.kaggle.com/code/amedsho/rot-invariance-spherical-vae ($\mathcal{S}$-VAE model and tests), https://colab.research.google.com/drive/140D_3ODEZrZJUr3j3m75heV1a2w4idoJ?usp=sharing (tests on the $\mathcal{S}$-GVAE).
 
 VAE results over randomly rotated inputs:
 ![](https://github.com/AmedSho/G-CNN-S-VAE/blob/main/Project/VAE_results.png)
