@@ -1,6 +1,6 @@
 # Learning Rotation-Agnostic Representations via Group Equivariant VAES
 
-An emerging field in representation learning involves the study of group-equivariant neural networks, that leverage concepts from group representation theory to design neural architectures that can exploit discrete and continuous symmetries to produce more general representations. Following this direction, in this work we demonstrate how an image embedding agnostic to rotations can be naturally obtained by training a variational autoencoder (S-GVAE) equipped with a Group equivariant Convolutional Neural Network (G-CNN) encoder.
+An emerging field in representation learning involves the study of group-equivariant neural networks, that leverage concepts from group representation theory to design neural architectures that can exploit discrete and continuous symmetries to produce more general representations. Following this direction, in this work we demonstrate how an image embedding agnostic to rotations can be naturally obtained by training a variational autoencoder ($\mathcal{S}$-VAE) equipped with a Group equivariant Convolutional Neural Network (G-CNN) encoder.
 
 ![](https://github.com/AmedSho/G-CNN-S-VAE/blob/main/S-VAE.png)
 
@@ -11,10 +11,10 @@ VAE results over randomly rotated inputs:
 
 # Are 6s just rotated 9s?
 
-In our work we compared $\mathcal(S)$-GVAE with a standard $\mathcal(S)$-VAE of the same size (∼ 800k params), both trained on non-rotated MNIST. We used a pre-trained ResNet50 (∼ 23.5M params) to classify the generated outputs from the two models (just 6s and 9s).
+In our work we compared $\mathcal{S}$-GVAE with a standard $\mathcal{S}$-VAE of the same size (∼ 800k params), both trained on non-rotated MNIST. We used a pre-trained ResNet50 (∼ 23.5M params) to classify the generated outputs from the two models (just 6s and 9s).
 Below the results:
 
-| input  | $\mathcal(S)$-GVAE |  $\mathcal(S)$-VAE |
+| input  | $\mathcal{S}$-GVAE |  $\mathcal{S}$-VAE |
 | ------------- | ------------- | ------------- |
 | Rotated 6 digits  | 95%  | 24% |
 | Rotated 9 digits | 66%  | 28% |
