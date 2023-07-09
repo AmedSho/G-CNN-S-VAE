@@ -8,3 +8,17 @@ In the repository there is a folder with the project and the entire code we used
 
 VAE results over randomly rotated inputs:
 ![](https://github.com/AmedSho/G-CNN-S-VAE/blob/main/Project/VAE_results.png)
+
+# Are 6s just rotated 9s?
+
+In our work we compared $\mathcal(S)$-GVAE with a standard $\mathcal(S)$-VAE of the same size (∼ 800k params), both trained on non-rotated MNIST. We used a pre-trained ResNet50 (∼ 23.5M params) to classify the generated outputs from the two models (just 6s and 9s).
+Below the results:
+
+| input  | $\mathcal(S)$-GVAE |  $\mathcal(S)$-VAE |
+| ------------- | ------------- | ------------- |
+| Rotated 6 digits  | 95%  | 24% |
+| Rotated 9 digits | 66%  | 28% |
+
+![](https://github.com/AmedSho/G-CNN-S-VAE/blob/main/Project/comparison_6_9.png)
+
+The strong performance in discriminating between 6s and 9s suggests that the rotational orientation of these digits does not play a significant role in recognition. As such, it is unlikely that 6s are simply rotated 9s. However, the differential performance between these digits may be attributed to variations in handwriting style. While the 6-digit maintains a consistent form across the dataset with a distinctive curve, the 9-digit can be expressed in a variety of ways, some of which may resemble the traces of other digits (e.g., 4 or 3), making it more challenging to classify.
